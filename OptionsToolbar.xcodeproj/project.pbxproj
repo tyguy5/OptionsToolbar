@@ -21,6 +21,7 @@
 		7116F70E19410683006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6F019410683006C8F06 /* UIKit.framework */; };
 		7116F71619410683006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F71419410683006C8F06 /* InfoPlist.strings */; };
 		7116F71819410683006C8F06 /* OptionsToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F71719410683006C8F06 /* OptionsToolbarTests.m */; };
+		7116F72219410719006C8F06 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F72119410719006C8F06 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7116F71319410683006C8F06 /* OptionsToolbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptionsToolbarTests-Info.plist"; sourceTree = "<group>"; };
 		7116F71519410683006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7116F71719410683006C8F06 /* OptionsToolbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionsToolbarTests.m; sourceTree = "<group>"; };
+		7116F72119410719006C8F06 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7116F72219410719006C8F06 /* MessageUI.framework in Frameworks */,
 				7116F6EF19410683006C8F06 /* CoreGraphics.framework in Frameworks */,
 				7116F6F119410683006C8F06 /* UIKit.framework in Frameworks */,
 				7116F6ED19410683006C8F06 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		7116F6EB19410683006C8F06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7116F72119410719006C8F06 /* MessageUI.framework */,
 				7116F6EC19410683006C8F06 /* Foundation.framework */,
 				7116F6EE19410683006C8F06 /* CoreGraphics.framework */,
 				7116F6F019410683006C8F06 /* UIKit.framework */,

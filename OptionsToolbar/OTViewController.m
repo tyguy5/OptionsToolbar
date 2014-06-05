@@ -7,8 +7,9 @@
 //
 
 #import "OTViewController.h"
+#import <MessageUI/MessageUI.h>
 
-@interface OTViewController ()
+@interface OTViewController () <MFMailComposeViewControllerDelegate>
 
 @end
 
@@ -20,10 +21,25 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)mail:(id)sender {
+    
+    MFMailComposeViewController *mailViewController = [[MFMailComposeViewController alloc] init];
+    mailViewController.mailComposeDelegate = self;
+    
+    [self presentViewController:mailViewController animated:YES completion:nil];
+    
+}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
+
+- (IBAction)red:(id)sender {
+
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 @end
