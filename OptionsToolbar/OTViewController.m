@@ -9,6 +9,8 @@
 #import "OTViewController.h"
 #import <MessageUI/MessageUI.h>
 
+#import "OTNewViewController.h"
+
 @interface OTViewController () <MFMailComposeViewControllerDelegate>
 
 @end
@@ -40,6 +42,20 @@
 - (IBAction)red:(id)sender {
 
     self.view.backgroundColor = [UIColor redColor];
+}
+
+- (IBAction)blue:(id)sender {
+
+    self.view.backgroundColor = [UIColor blueColor];
+    
+}
+
+- (IBAction)new:(id)sender {
+
+    OTNewViewController *new = [OTNewViewController new];
+    
+    [self presentViewController:new animated:YES completion:nil];
+    
 }
 
 @end

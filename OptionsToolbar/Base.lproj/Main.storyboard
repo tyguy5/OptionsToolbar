@@ -31,6 +31,18 @@
                                             <action selector="red:" destination="vXZ-lx-hvc" id="Wwg-Fg-rvK"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="S6h-SO-JaY"/>
+                                    <barButtonItem title="Blue" id="j8i-eq-5qt">
+                                        <connections>
+                                            <action selector="blue:" destination="vXZ-lx-hvc" id="byv-TP-WRh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fMR-Q2-LIK"/>
+                                    <barButtonItem title="New" id="GX1-0o-e9Y">
+                                        <connections>
+                                            <action selector="new:" destination="vXZ-lx-hvc" id="Gfg-yq-D9v"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
