@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE32E7C1AE2BE2F00B86505 /* OTNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE32E7A1AE2BE2F00B86505 /* OTNewViewController.m */; };
+		2FE32E7D1AE2BE2F00B86505 /* OTNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE32E7B1AE2BE2F00B86505 /* OTNewViewController.xib */; };
 		7116F6ED19410683006C8F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6EC19410683006C8F06 /* Foundation.framework */; };
 		7116F6EF19410683006C8F06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6EE19410683006C8F06 /* CoreGraphics.framework */; };
 		7116F6F119410683006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6F019410683006C8F06 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FE32E791AE2BE2F00B86505 /* OTNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTNewViewController.h; path = ../OTNewViewController.h; sourceTree = "<group>"; };
+		2FE32E7A1AE2BE2F00B86505 /* OTNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTNewViewController.m; path = ../OTNewViewController.m; sourceTree = "<group>"; };
+		2FE32E7B1AE2BE2F00B86505 /* OTNewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTNewViewController.xib; path = ../OTNewViewController.xib; sourceTree = "<group>"; };
 		7116F6E919410683006C8F06 /* OptionsToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptionsToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7116F6EC19410683006C8F06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7116F6EE19410683006C8F06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +122,9 @@
 				7116F6FE19410683006C8F06 /* Main.storyboard */,
 				7116F70119410683006C8F06 /* OTViewController.h */,
 				7116F70219410683006C8F06 /* OTViewController.m */,
+				2FE32E791AE2BE2F00B86505 /* OTNewViewController.h */,
+				2FE32E7A1AE2BE2F00B86505 /* OTNewViewController.m */,
+				2FE32E7B1AE2BE2F00B86505 /* OTNewViewController.xib */,
 				7116F70419410683006C8F06 /* Images.xcassets */,
 				7116F6F319410683006C8F06 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE32E7D1AE2BE2F00B86505 /* OTNewViewController.xib in Resources */,
 				7116F70519410683006C8F06 /* Images.xcassets in Resources */,
 				7116F6F719410683006C8F06 /* InfoPlist.strings in Resources */,
 				7116F70019410683006C8F06 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE32E7C1AE2BE2F00B86505 /* OTNewViewController.m in Sources */,
 				7116F6F919410683006C8F06 /* main.m in Sources */,
 				7116F6FD19410683006C8F06 /* OTAppDelegate.m in Sources */,
 				7116F70319410683006C8F06 /* OTViewController.m in Sources */,
@@ -457,6 +467,7 @@
 				7116F71D19410683006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7116F71E19410683006C8F06 /* Build configuration list for PBXNativeTarget "OptionsToolbarTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				7116F72019410683006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
